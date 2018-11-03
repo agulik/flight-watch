@@ -7,7 +7,7 @@ const ScrapeFlightPrices = async (x: any, bot: any) => {
   console.log("scraping flight prices...");
   const response = await x(process.env.WEB_URL_FLIGHT_PRICES, "#library", [
     {
-      price: Sleep(1000).then(".ResultList-results div")
+      price: ".ResultList-results div"
       // itinerary: {
       //   destination: ".JourneyTrips .TripPlace to .name",
       //   leaving: ".TripInfoField _dateField .TripInfoField-date time",
