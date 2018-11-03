@@ -16,7 +16,7 @@ const crawl = async () => {
   ]);
   bot.telegram.sendMessage(
     process.env.CHAT_ID,
-    `New Flight Deal! ✈️ - ${response.deal} click here: ${response.link}`
+    `New Flight Deal! ✈️ - ${response.deal} - click here: ${response.link}`
   );
   console.log(response);
 };
