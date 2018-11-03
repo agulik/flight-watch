@@ -4,7 +4,8 @@ let latestErrorFare = {
 };
 
 const ScrapeErrorFares = async (x: any, bot: any) => {
-  const [response] = await x(process.env.WEB_URL, "article", [
+  console.log("scraping error fares...");
+  const [response] = await x(process.env.WEB_URL_ERROR_FARE, "article", [
     {
       deal: "h2 a",
       link: "h2 a@href"
