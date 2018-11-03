@@ -18,6 +18,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
+    "await-sleep": "^0.0.1",
     "dotenv": "^6.1.0",
     "telegraf": "^3.25.0",
     "x-ray": "^2.3.3"
