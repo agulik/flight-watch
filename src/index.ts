@@ -10,7 +10,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.startPolling();
 
-bot.hears("hello", (ctx: any) => ctx.reply("Hey there! 👋🏼 I am still working!"));
+bot.hears("hello", (ctx: any) => ctx.reply("Hey there! 👋🏼 Don't worry, I am still working!"));
 
 const Crawl = async () => {
   console.log("crawling...");
